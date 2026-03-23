@@ -1,0 +1,21 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+
+# IDE (IntelliJ / VS Code)
+.idea/
+*.iml
+.vscode/
+bin/
+
+# Système / Docker
+.DS_Store
+db_data/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
