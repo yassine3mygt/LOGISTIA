@@ -1,0 +1,36 @@
+services:
+  auth-db:
+    image : postgres:15
+    container_name : auth-db-container
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES-DB=auth_db
+      - POSTGRES_USER=yassine
+      - POSTGRES_PASSWORD=1234
+    volumes:
+      - ./auth-db-data:/var/lib/postgresql/data
+
+  logistics-db:
+    image : postgres:15
+    container_name : logistics-db-container
+    ports:
+      - "5434:5432"
+    environment:
+      - POSTGRES-DB=logistics_db
+      - POSTGRES_USER=yassine
+      - POSTGRES_PASSWORD=1234
+    volumes:
+      - ./logistics-db-data:/var/lib/postgresql/data
+
+  billing-db:
+    image : postgres:15
+    container_name : billing-db-container
+    ports:
+      - "5435:5432"
+    environment:
+      - POSTGRES-DB=billing_db
+      - POSTGRES_USER=yassine
+      - POSTGRES_PASSWORD=1234
+    volumes:
+      - ./billing-db-data:/var/lib/postgresql/data
