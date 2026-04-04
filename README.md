@@ -1,10 +1,10 @@
-# LOGISTIA - Plateforme SaaS d'Optimisation Logistique 🚚📦
+# LOGISTIA - Plateforme SaaS d'Optimisation Logistique
 
 **LOGISTIA** est une solution SaaS moderne conçue pour optimiser les flux d'import/export. Le projet repose sur une architecture microservices robuste, utilisant l'intelligence artificielle pour la prédiction et l'optimisation logistique.
 
 ---
 
-## 🏗️ Architecture du Projet
+## Architecture du Projet
 
 Le système est construit selon une architecture **Microservices** décentralisée pour garantir la scalabilité et la haute disponibilité.
 
@@ -17,7 +17,7 @@ Le système est construit selon une architecture **Microservices** décentralis�
 
 ---
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 ### Backend & Infrastructure
 * **Langage :** Java 21
@@ -31,7 +31,7 @@ Le système est construit selon une architecture **Microservices** décentralis�
 
 ---
 
-## 🚀 Installation et Démarrage
+## Installation et Démarrage
 
 ### Pré-requis
 * Docker & Docker Compose installés.
