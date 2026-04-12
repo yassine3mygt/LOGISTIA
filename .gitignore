@@ -19,3 +19,6 @@ db_data/
 __pycache__/
 *.py[cod]
 venv/
+logistics-db-data/
+auth-db-data/
+billing-db-data/
