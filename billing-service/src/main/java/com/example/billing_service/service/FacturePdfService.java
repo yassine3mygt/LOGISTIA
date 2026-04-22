@@ -1,0 +1,4 @@
+package com.example.billing_service.service;
+
+public class FacturePdfService {
+}

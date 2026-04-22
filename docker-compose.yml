@@ -5,7 +5,7 @@ services:
     ports:
       - "5433:5432"
     environment:
-      - POSTGRES-DB=auth_db
+      - POSTGRES_DB=auth_db
       - POSTGRES_USER=yassine
       - POSTGRES_PASSWORD=1234
     volumes:
@@ -17,7 +17,7 @@ services:
     ports:
       - "5434:5432"
     environment:
-      - POSTGRES-DB=logistics_db
+      - POSTGRES_DB=logistics_db
       - POSTGRES_USER=yassine
       - POSTGRES_PASSWORD=1234
     volumes:
@@ -29,7 +29,7 @@ services:
     ports:
       - "5435:5432"
     environment:
-      - POSTGRES-DB=billing_db
+      - POSTGRES_DB=billing_db
       - POSTGRES_USER=yassine
       - POSTGRES_PASSWORD=1234
     volumes:
